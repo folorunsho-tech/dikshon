@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Globals Style*/
+.word-type::after {
+  content: " ";
+  height: 0.1rem;
+  width: 80%;
+  display: inline-block;
+  margin-bottom: 0.15rem;
+  margin-left: 0.6rem;
+  @apply bg-gray-400;
+}
+/* Light Theme */
+
+.theme-light {
+  @apply bg-white text-gray-900;
+}
+/* Dark Theme */
+
+.theme-dark {
+  @apply bg-gray-900 text-gray-100;
+}
