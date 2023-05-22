@@ -52,7 +52,7 @@ function App() {
                   {currSeacrh[0]?.phonetics[1]?.text}
                 </p>
               </div>
-              <p>play</p>
+            
             </section>
             <article className="flex flex-col gap-6 h-full">
               {currSeacrh[0]?.meanings.map((meaning: any) => {
